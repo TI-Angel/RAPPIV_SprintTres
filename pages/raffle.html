@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../image/icon.png" type="image/x-icon">
+    <title>Raffle</title>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navBar-menu">
+            <a href="../index.html">Home</a>
+            <a href="./aboutUs.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./information.html">Information</a>
+            <a href="./benefitsTips.html">Benefits</a>
+            <a href="./raffle.html">Raffle</a>
+        </div>
+        
+        <img src="../image/logo.png" alt="logo" class="logo">
+    </nav>
+
+        <h2 class="titulo">CON RON, PASA</h2>
+        <h2 class="titulo titleraffle">You can collaborate to hald an exhibition event and participe in a raffle to win an ease!</h2>
+    
+    <main class="main-raffle">
+        <section>
+            <h2>Our location is located at:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.13702241255012!2d-118.3479985511364!3d34.12062269676229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2befe4f13f77f%3A0x1d6da0c8db5d5e1d!2s2823%20Las%20Alturas%20St%2C%20Los%20Angeles%2C%20CA%2090068%2C%20EE.%20UU.!5e1!3m2!1ses-419!2sco!4v1718380847025!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+    
+        <form action="./show_data.html" method="get" class="formulario">
+            <label for="name">First name
+                <input type="text" name="Firstname" id="name" required>
+            </label>
+            <label for="lastname">Last name
+                <input type="text" name="Lastname" id="lastname" required> 
+            </label>
+            <label for="conference">Choose Meet or Zoom
+                <select name="Meet or Zoom" id="conference">
+                    <option value="Meet">Meet</option>
+                    <option value="Zoom">Zoom</option>
+                </select>
+            </label>
+            
+            <label for="day">Choose Date
+                <input type="date" name="Date" id="day">
+            </label>
+            <p>Payment Options</p>
+            <input type="radio" name="Payment" id="cash" value="cash">  
+            <label for="cash">Cash</label><br>
+            <input type="radio" name="Payment" id="credit" value="credit card">
+            <label for="credit">Credit Card</label><br>
+            <input type="radio" name="Payment" id="debit" value="debit card">
+            <label for="debit">Debit Card</label>
+            <p>Message (Optional)</p>
+            <textarea name="message" rows="6" cols="30"></textarea>
+            
+            <fieldset>
+                <input type="checkbox" name="terms-conditions" id="terms" value="accept" required>
+                <label for="terms">I accept terms and conditions...</label>
+                <label for="botton-sen">
+                    <input type="submit" value="Send" id="botton-sen">
+                </label>
+            </fieldset>
+    </form>
+</main>
+
+<footer class="credito">
+    <p>Created By: Miguel Caicedo</p>
+</footer>
+    
+</body>
+</html>
